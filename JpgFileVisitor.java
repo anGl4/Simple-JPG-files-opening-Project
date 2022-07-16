@@ -30,6 +30,8 @@ public class JpgFileVisitor extends SimpleFileVisitor<Path> {
 		return data;
 	}
 
+//	Testing the functionality of file visitor
+//	
 //	public static void main(String[] args) throws IOException {
 //		Path path = Path.of("C:\\VariousData");
 //		JpgFileVisitor visitor = new JpgFileVisitor();
