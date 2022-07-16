@@ -26,7 +26,6 @@ import javax.swing.WindowConstants;
 public class JpgFrame extends JFrame {
 
 	JpgFileVisitor visitor = new JpgFileVisitor();
-	// Path path = Path.of("C:\\VariousData");
 	Path path = Path.of("");
 
 	JButton btnDownload = new JButton("Download");
@@ -145,7 +144,7 @@ public class JpgFrame extends JFrame {
 				frame.setSize(720, 500);
 				frame.setVisible(true);
 			} catch (IOException e) {
-				System.err.println("Aw hell naw");
+				System.err.println("Something went wrong");
 			}
 
 		});
